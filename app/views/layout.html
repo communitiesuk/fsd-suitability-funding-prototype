@@ -54,6 +54,19 @@
 {% set fundName = "Coastal Communities Fund" %}
 
 
+{% block beforeContent %}
+
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+{{ govukPhaseBanner({
+  tag: {
+    text: "prototype"
+  },
+  html: 'This is not a live service. This is a service currently being designed. '
+}) }}
+
+
+{% endblock%}
+
 {% if useAutoStoreData %}
   {% block footer %}
     {{ govukFooter({
