@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_with_breadcrumb.html" %}
 
 {% block pageTitle %}
   Coastal Communities Fund - Ministerial foreword
@@ -9,21 +9,6 @@
   {{ govukHeader() }}
 {% endblock %}
 
-{% block beforeContent %}
-  <div class="govuk-breadcrumbs">
-    <ol class="govuk-breadcrumbs__list">
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="#">Society and culture</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link">Community and society</a>
-      </li>
-    </ol>
-  </div>
-{% endblock %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -78,7 +63,7 @@
       </h2>
 
       <p>
-        Our coastal communities play a unique role in the UK economy and the government wants to help them unleash their growth potential that can only be  harnessed locally. 
+        Our coastal communities play a unique role in the UK economy and the government wants to help them unleash their growth potential that can only be  harnessed locally.
       </p>
       <p>The new Coastal Communities Fund underlines the UK Government’s commitment to supporting coastal places now and in the future so they can benefit from the growth in revenues produced by the Crown Estate as it further develops its coastal and offshore resources.</p>
 
