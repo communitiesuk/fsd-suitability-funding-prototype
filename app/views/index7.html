@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_with_breadcrumb.html" %}
 
 {% block pageTitle %}
   Coastal Communities Fund - Key dates
@@ -9,21 +9,6 @@
   {{ govukHeader() }}
 {% endblock %}
 
-{% block beforeContent %}
-  <div class="govuk-breadcrumbs">
-    <ol class="govuk-breadcrumbs__list">
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="#">Society and culture</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link">Community and society</a>
-      </li>
-    </ol>
-  </div>
-{% endblock %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -76,7 +61,7 @@
       <h2 class="govuk-heading-m">
         Key dates
       </h2>
-      
+
       <ul class="govuk-list govuk-list--bullet">
         <li><strong>February 2012</strong> - Fund scope released including timetable for applications</li>
         <li><strong>w/c 5 March 2012</strong> - UK wide call for Expression of Interests (EoI)</li>

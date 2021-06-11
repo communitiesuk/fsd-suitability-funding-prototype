@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_with_breadcrumb.html" %}
 
 {% block pageTitle %}
   Coastal Communities Fund - Download full prospectus
@@ -9,21 +9,6 @@
   {{ govukHeader() }}
 {% endblock %}
 
-{% block beforeContent %}
-  <div class="govuk-breadcrumbs">
-    <ol class="govuk-breadcrumbs__list">
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="#">Society and culture</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link">Community and society</a>
-      </li>
-    </ol>
-  </div>
-{% endblock %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -76,7 +61,7 @@
       <h2 class="govuk-heading-m">
         Download full prospectus
       </h2>
-      
+
       <p>We provide a download and share link on each section of this online prospectus. If you’d like to download the full publication, use the links below.      </p>
 
       <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-6 govuk-!-margin-top-6">

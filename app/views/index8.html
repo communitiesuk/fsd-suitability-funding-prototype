@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_with_breadcrumb.html" %}
 
 {% block pageTitle %}
   Coastal Communities Fund - Support with your application
@@ -9,21 +9,7 @@
   {{ govukHeader() }}
 {% endblock %}
 
-{% block beforeContent %}
-  <div class="govuk-breadcrumbs">
-    <ol class="govuk-breadcrumbs__list">
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="#">Society and culture</a>
-      </li>
-      <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link">Community and society</a>
-      </li>
-    </ol>
-  </div>
-{% endblock %}
+
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -76,7 +62,7 @@
       <h2 class="govuk-heading-m">
         Support with your application
       </h2>
-      
+
       <p>If you have questions about the eligibility or your project or how to submit your application, you can contact XXXX.</p>
 
       <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-6 govuk-!-margin-top-6">
